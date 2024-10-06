@@ -6,7 +6,7 @@ pipeline {
     environment {
         REPO_URL = 'https://github.com/RaamHorakeri/java-shared-library-1.git'
         IMAGE_NAME = 'raam2023/java-web-app'
-        DOCKER_CREDENTIALS_ID = 'dockerhub-credentials-id'
+        DOCKER_CREDENTIALS_ID = 'docker'
         PORT_MAPPING = '8081:8081'
         TAG = "${env.BUILD_ID}"
     }
